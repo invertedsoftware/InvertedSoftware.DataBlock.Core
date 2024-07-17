@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\",
+  "WorkspaceRootPath": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|c:\\users\\gal.ratner\\source\\repos\\invertedsoftware.datablock\\invertedsoftware.datablock\\invertedsoftware.datablock.core.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|solutionrelative:invertedsoftware.datablock\\invertedsoftware.datablock.core.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|c:\\users\\gal.ratner\\source\\repos\\invertedsoftware.datablock.core\\invertedsoftware.datablock\\sqlcommandpooledobjectpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|solutionrelative:invertedsoftware.datablock\\sqlcommandpooledobjectpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|c:\\users\\gal.ratner\\source\\repos\\invertedsoftware.datablock\\invertedsoftware.datablock\\objecthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|solutionrelative:invertedsoftware.datablock\\objecthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|c:\\users\\gal.ratner\\source\\repos\\invertedsoftware.datablock\\invertedsoftware.datablock\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|c:\\users\\gal.ratner\\source\\repos\\invertedsoftware.datablock.core\\invertedsoftware.datablock\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|solutionrelative:invertedsoftware.datablock\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|c:\\users\\gal.ratner\\source\\repos\\invertedsoftware.datablock\\invertedsoftware.datablock\\crudhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|solutionrelative:invertedsoftware.datablock\\crudhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|c:\\users\\gal.ratner\\source\\repos\\invertedsoftware.datablock.core\\invertedsoftware.datablock\\invertedsoftware.datablock.core.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|solutionrelative:invertedsoftware.datablock\\invertedsoftware.datablock.core.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|c:\\users\\gal.ratner\\source\\repos\\invertedsoftware.datablock\\invertedsoftware.datablock\\invertedsoftware.datablock.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|solutionrelative:invertedsoftware.datablock\\invertedsoftware.datablock.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|c:\\users\\gal.ratner\\source\\repos\\invertedsoftware.datablock.core\\invertedsoftware.datablock\\objecthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|solutionrelative:invertedsoftware.datablock\\objecthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|c:\\users\\gal.ratner\\source\\repos\\invertedsoftware.datablock.core\\invertedsoftware.datablock\\crudhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583E9588-89FD-4C7E-8668-D083688B9437}|InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj|solutionrelative:invertedsoftware.datablock\\crudhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SqlCommandPooledObjectPolicy.cs",
+              "DocumentMoniker": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\SqlCommandPooledObjectPolicy.cs",
+              "RelativeDocumentMoniker": "InvertedSoftware.DataBlock\\SqlCommandPooledObjectPolicy.cs",
+              "ToolTip": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\SqlCommandPooledObjectPolicy.cs",
+              "RelativeToolTip": "InvertedSoftware.DataBlock\\SqlCommandPooledObjectPolicy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T17:43:14.948Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
@@ -86,11 +99,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "InvertedSoftware.DataBlock.Core",
-              "DocumentMoniker": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
               "RelativeDocumentMoniker": "InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
-              "ToolTip": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
+              "ToolTip": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
               "RelativeToolTip": "InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-07-17T17:18:00.641Z",
@@ -98,52 +111,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InvertedSoftware.DataBlock.Core.csproj",
-              "DocumentMoniker": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
-              "RelativeDocumentMoniker": "InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
-              "ToolTip": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
-              "RelativeToolTip": "InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2023-11-21T18:16:24.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SQLHelper.cs",
-              "DocumentMoniker": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock\\SQLHelper.cs",
+              "DocumentMoniker": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\SQLHelper.cs",
               "RelativeDocumentMoniker": "InvertedSoftware.DataBlock\\SQLHelper.cs",
-              "ToolTip": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock\\SQLHelper.cs",
+              "ToolTip": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\SQLHelper.cs",
               "RelativeToolTip": "InvertedSoftware.DataBlock\\SQLHelper.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAAwEgAAABQAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAC0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-11-21T17:25:28.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CRUDHelper.cs",
-              "DocumentMoniker": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock\\CRUDHelper.cs",
+              "DocumentMoniker": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\CRUDHelper.cs",
               "RelativeDocumentMoniker": "InvertedSoftware.DataBlock\\CRUDHelper.cs",
-              "ToolTip": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock\\CRUDHelper.cs",
+              "ToolTip": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\CRUDHelper.cs",
               "RelativeToolTip": "InvertedSoftware.DataBlock\\CRUDHelper.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAuwHYAAABGAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAuwEcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-11-21T17:25:06.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ObjectHelper.cs",
-              "DocumentMoniker": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock\\ObjectHelper.cs",
+              "DocumentMoniker": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\ObjectHelper.cs",
               "RelativeDocumentMoniker": "InvertedSoftware.DataBlock\\ObjectHelper.cs",
-              "ToolTip": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock\\ObjectHelper.cs",
+              "ToolTip": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\ObjectHelper.cs",
               "RelativeToolTip": "InvertedSoftware.DataBlock\\ObjectHelper.cs",
-              "ViewState": "AQIAAKcAAAAAAAAAAAAUwMAAAAAqAAAA",
+              "ViewState": "AQIAALYAAAAAAAAAAAAUwL4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-11-21T17:24:12.282Z",
               "EditorCaption": ""

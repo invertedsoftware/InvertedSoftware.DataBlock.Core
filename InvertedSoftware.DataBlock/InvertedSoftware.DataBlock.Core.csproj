@@ -8,7 +8,7 @@
     <Description>Lightweight, low memory footprint and high performance library, The Inverted Software DataBlock helps creating objects and lists from stored procedures or queries output as well as updating records from models. Usage looks like: CRUDHelper.GetObjectList&lt;Category&gt;(() =&gt; new Category(), "GetCategories", mainConnectionString);
 Tutorial here: https://www.blogcloud.io/b/Gal-Ratner/p/the-inverted-software-datablock-quick-start-tutorial</Description>
     <Copyright>Inverted Software</Copyright>
-    <PackageProjectUrl>https://www.invertedsoftware.com/</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/invertedsoftware/InvertedSoftware.DataBlock.Core</PackageProjectUrl>
     <RepositoryUrl>https://github.com/invertedsoftware/InvertedSoftware-DataBlock</RepositoryUrl>
     <PackageTags>ORM;MicroORM;SQL;SQLServer</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

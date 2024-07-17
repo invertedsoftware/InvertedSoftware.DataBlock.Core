@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xqb9WSEGPu8=",
+  "dgSpecHash": "U7mSsvx/uss=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
+  "projectFilePath": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gal.ratner\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\gal.ratner\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",

@@ -15,12 +15,15 @@ namespace InvertedSoftware.DataBlock.Core
 
         public override bool Return(SqlCommand obj)
         {
-            if (obj.Connection.State == ConnectionState.Open)
-                obj.Connection.Close();
-            obj.Connection.Dispose();
-            obj.Connection = null;
-            obj.Parameters.Clear();
+            if (obj.Connection != null)
+            {
+                if (obj.Connection.State == ConnectionState.Open)
+                    obj.Connection.Close();
+                obj.Connection.Dispose();
+				obj.Connection = null;
+			}
             
+            obj.Parameters.Clear();
             return true;
         }
     }

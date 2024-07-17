@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj": {}
+    "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj": {
+    "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj": {
       "version": "1.0.2",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
+        "projectUniqueName": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
         "projectName": "InvertedSoftware.DataBlock.Core",
-        "projectPath": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
+        "projectPath": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
         "packagesPath": "C:\\Users\\gal.ratner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock\\obj\\",
+        "outputPath": "C:\\Users\\gal.ratner\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
