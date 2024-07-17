@@ -1,0 +1,12 @@
+C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock\InvertedSoftware.DataBlock\bin\Release\net8.0\InvertedSoftware.DataBlock.Core.deps.json
+C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock\InvertedSoftware.DataBlock\bin\Release\net8.0\InvertedSoftware.DataBlock.Core.dll
+C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock\InvertedSoftware.DataBlock\bin\Release\net8.0\InvertedSoftware.DataBlock.Core.pdb
+C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock\InvertedSoftware.DataBlock\obj\Release\net8.0\InvertedSoftware.DataBlock.Core.csproj.AssemblyReference.cache
+C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock\InvertedSoftware.DataBlock\obj\Release\net8.0\InvertedSoftware.DataBlock.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock\InvertedSoftware.DataBlock\obj\Release\net8.0\InvertedSoftware.DataBlock.Core.AssemblyInfoInputs.cache
+C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock\InvertedSoftware.DataBlock\obj\Release\net8.0\InvertedSoftware.DataBlock.Core.AssemblyInfo.cs
+C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock\InvertedSoftware.DataBlock\obj\Release\net8.0\InvertedSoftware.DataBlock.Core.csproj.CoreCompileInputs.cache
+C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock\InvertedSoftware.DataBlock\obj\Release\net8.0\InvertedSoftware.DataBlock.Core.dll
+C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock\InvertedSoftware.DataBlock\obj\Release\net8.0\refint\InvertedSoftware.DataBlock.Core.dll
+C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock\InvertedSoftware.DataBlock\obj\Release\net8.0\InvertedSoftware.DataBlock.Core.pdb
+C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock\InvertedSoftware.DataBlock\obj\Release\net8.0\ref\InvertedSoftware.DataBlock.Core.dll

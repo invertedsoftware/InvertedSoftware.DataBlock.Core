@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Gal Ratner</Authors>
+    <Company>Inverted Software</Company>
+    <Description>Lightweight, low memory footprint and high performance library, The Inverted Software DataBlock helps creating objects and lists from stored procedures or queries output as well as updating records from models. Usage looks like: CRUDHelper.GetObjectList&lt;Category&gt;(() =&gt; new Category(), "GetCategories", mainConnectionString);
+Tutorial here: https://www.blogcloud.io/b/Gal-Ratner/p/the-inverted-software-datablock-quick-start-tutorial</Description>
+    <Copyright>Inverted Software</Copyright>
+    <PackageProjectUrl>https://www.invertedsoftware.com/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/invertedsoftware/InvertedSoftware-DataBlock</RepositoryUrl>
+    <PackageTags>ORM;MicroORM;SQL;SQLServer</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Title>Inverted Software Data Block.Core</Title>
+    <PackageReleaseNotes>Updated to .NET 8, Frozen Collections and object Pool</PackageReleaseNotes>
+    <PackageReadmeFile>README.MD</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\README.MD">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+    <PackageReference Include="Microsoft.Extensions.ObjectPool" Version="8.0.7" />
+  </ItemGroup>
+
+	<PropertyGroup Condition=" '$(Version)' == '' ">
+		<VersionPrefix Condition=" '$(VersionPrefix)' == '' ">1.0.2</VersionPrefix>
+	</PropertyGroup>
+</Project>

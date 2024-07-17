@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>InvertedSoftware.DataBlock.Core</id>
+    <version>1.0.1</version>
+    <title>Inverted Software Data Block</title>
+    <authors>Gal Ratner</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.MD</readme>
+    <projectUrl>https://www.invertedsoftware.com/</projectUrl>
+    <description>Lightweight, low memory footprint and high performance library, The Inverted Software DataBlock helps creating objects and lists from stored procedures or queries output as well as updating records from models. Usage looks like: CRUDHelper.GetObjectList&lt;Category&gt;(() =&gt; new Category(), "GetCategories", mainConnectionString);
+Tutorial here: https://www.blogcloud.io/b/Gal-Ratner/p/the-inverted-software-datablock-quick-start-tutorial</description>
+    <releaseNotes>Updated to .NET 8, Frozen Collections and object Pool</releaseNotes>
+    <copyright>Inverted Software</copyright>
+    <tags>ORM MicroORM SQL SQLServer</tags>
+    <repository type="git" url="https://github.com/invertedsoftware/InvertedSoftware-DataBlock" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.Data.SqlClient" version="5.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.ObjectPool" version="8.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock\InvertedSoftware.DataBlock\bin\Release\net8.0\InvertedSoftware.DataBlock.Core.dll" target="lib\net8.0\InvertedSoftware.DataBlock.Core.dll" />
+    <file src="C:\Users\gal.ratner\Downloads\README.MD" target="\README.MD" />
+  </files>
+</package>
