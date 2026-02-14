@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Gal Ratner</Authors>
     <Company>Inverted Software</Company>
@@ -19,15 +19,12 @@ Tutorial here: https://www.blogcloud.io/b/Gal-Ratner/p/the-inverted-software-dat
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\Downloads\README.MD">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
+	  <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
-    <PackageReference Include="Microsoft.Extensions.ObjectPool" Version="8.0.7" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.4" />
+    <PackageReference Include="Microsoft.Extensions.ObjectPool" Version="10.0.3" />
   </ItemGroup>
 
 	<PropertyGroup Condition=" '$(Version)' == '' ">

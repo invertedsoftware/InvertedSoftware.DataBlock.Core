@@ -15,16 +15,16 @@ Tutorial here: https://www.blogcloud.io/b/Gal-Ratner/p/the-inverted-software-dat
     <releaseNotes>Updated to .NET 8, Frozen Collections and object Pool</releaseNotes>
     <copyright>Inverted Software</copyright>
     <tags>ORM MicroORM SQL SQLServer</tags>
-    <repository type="git" url="https://github.com/invertedsoftware/InvertedSoftware-DataBlock" commit="a4908b5da5b725ab72a0e63837b432a8b8c314f3" />
+    <repository type="git" url="https://github.com/invertedsoftware/InvertedSoftware-DataBlock" commit="8245702f05da183afd380583dbaac91fd951d634" />
     <dependencies>
-      <group targetFramework="net8.0">
-        <dependency id="Microsoft.Data.SqlClient" version="5.2.1" exclude="Build,Analyzers" />
-        <dependency id="Microsoft.Extensions.ObjectPool" version="8.0.7" exclude="Build,Analyzers" />
+      <group targetFramework="net10.0">
+        <dependency id="Microsoft.Data.SqlClient" version="6.1.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.ObjectPool" version="10.0.3" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\bin\Release\net8.0\InvertedSoftware.DataBlock.Core.dll" target="lib\net8.0\InvertedSoftware.DataBlock.Core.dll" />
-    <file src="C:\Users\gal.ratner\Downloads\README.MD" target="\README.MD" />
+    <file src="C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\bin\Release\net10.0\InvertedSoftware.DataBlock.Core.dll" target="lib\net10.0\InvertedSoftware.DataBlock.Core.dll" />
+    <file src="C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\README.md" target="\README.md" />
   </files>
 </package>

@@ -23,3 +23,16 @@ C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftwar
 C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\obj\Release\net8.0\refint\InvertedSoftware.DataBlock.Core.dll
 C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\obj\Release\net8.0\InvertedSoftware.DataBlock.Core.pdb
 C:\Users\gal.ratner\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\obj\Release\net8.0\ref\InvertedSoftware.DataBlock.Core.dll
+C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\bin\Release\net8.0\InvertedSoftware.DataBlock.Core.deps.json
+C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\bin\Release\net8.0\InvertedSoftware.DataBlock.Core.dll
+C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\bin\Release\net8.0\InvertedSoftware.DataBlock.Core.pdb
+C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\obj\Release\net8.0\InvertedSoftware.DataBlock.Core.csproj.AssemblyReference.cache
+C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\obj\Release\net8.0\InvertedSoftware.DataBlock.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\obj\Release\net8.0\InvertedSoftware.DataBlock.Core.AssemblyInfoInputs.cache
+C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\obj\Release\net8.0\InvertedSoftware.DataBlock.Core.AssemblyInfo.cs
+C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\obj\Release\net8.0\InvertedSoftware.DataBlock.Core.csproj.CoreCompileInputs.cache
+C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\obj\Release\net8.0\InvertedSoftware.DataBlock.Core.sourcelink.json
+C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\obj\Release\net8.0\InvertedSoftware.DataBlock.Core.dll
+C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\obj\Release\net8.0\refint\InvertedSoftware.DataBlock.Core.dll
+C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\obj\Release\net8.0\InvertedSoftware.DataBlock.Core.pdb
+C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\obj\Release\net8.0\ref\InvertedSoftware.DataBlock.Core.dll

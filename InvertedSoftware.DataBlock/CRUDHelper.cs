@@ -120,7 +120,7 @@ namespace InvertedSoftware.DataBlock.Core
                 {
                     PropertyInfo[] props = ObjectHelper.GetDataObjectInfo<T>().Properties;
                     List<string> columnList = ObjectHelper.GetColumnNames(rdr, sprocName);
-                    while (rdr.Read())
+                    while (await rdr.ReadAsync())
                         ObjectHelper.LoadAs<T>(rdr, newobject, props, columnList, sprocName);
                 }
             }
@@ -188,6 +188,52 @@ namespace InvertedSoftware.DataBlock.Core
             }
 
             return objectList;
+        }
+
+        public static async Task<(List<T>, int virtualTotal)> GetPagedObjectListAsync<T>(Func<T> generator, int pageIndex, int rowsPerPage, string sprocName, string stringConnection, params SqlParameter[] commandParameters)
+        {
+            List<T> objectList = new List<T>();
+            int virtualTotal = 0;
+            SqlParameter[] paramArray = new SqlParameter[]{
+                new SqlParameter("@PageIndex", SqlDbType.Int){ Value = pageIndex},
+                new SqlParameter("@PageSize", SqlDbType.Int){ Value = rowsPerPage},
+                new SqlParameter("@TotalRecords", SqlDbType.Int){ Direction = ParameterDirection.ReturnValue }
+            };
+
+            if (commandParameters != null)
+                paramArray = paramArray.Concat(commandParameters).ToArray();
+
+            SqlCommand cmd = SqlHelper.CommandPool.Get();
+            using (SqlConnection conn = new SqlConnection(stringConnection))
+            {
+                try
+                {
+                    SqlHelper.PrepareCommand(cmd, conn, CommandType.StoredProcedure, sprocName, null, paramArray);
+                    using (SqlDataReader rdr = await cmd.ExecuteReaderAsync(CommandBehavior.CloseConnection))
+                    {
+                        PropertyInfo[] props = ObjectHelper.GetDataObjectInfo<T>().Properties;
+                        List<string> columnList = ObjectHelper.GetColumnNames(rdr, sprocName);
+                        T newobject;
+                        while (await rdr.ReadAsync())
+                        {
+                            newobject = generator();
+                            ObjectHelper.LoadAs<T>(rdr, newobject, props, columnList, sprocName);
+                            objectList.Add(newobject);
+                        }
+                    }
+                    virtualTotal = Convert.ToInt32(cmd.Parameters["@TotalRecords"].Value);
+                }
+                catch (Exception e)
+                {
+                    throw new DataBlockException(String.Format("Error Getting object list {0}. Stored Procedure: {1}", typeof(T).FullName, sprocName), e);
+                }
+                finally
+                {
+                    SqlHelper.CommandPool.Return(cmd);
+                }
+            }
+
+            return (objectList, virtualTotal);
         }
 
         public static async Task<ObjectListResult<T>> GetObjectListAsync<T>(Func<T> generator, int pageIndex, int rowsPerPage, string sprocName, string stringConnection, params SqlParameter[] commandParameters)
@@ -667,7 +713,7 @@ namespace InvertedSoftware.DataBlock.Core
                     PropertyInfo[] props = ObjectHelper.GetDataObjectInfo<T>().Properties;
                     List<string> columnList = ObjectHelper.GetColumnNames(reader, sprocName);
                     T newobject;
-                    while (reader.Read())
+                    while (await reader.ReadAsync())
                     {
                         newobject = generator();
                         ObjectHelper.LoadAs<T>(reader, newobject, props, columnList, sprocName);
