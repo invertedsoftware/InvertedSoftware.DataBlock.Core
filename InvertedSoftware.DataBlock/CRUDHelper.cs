@@ -190,6 +190,18 @@ namespace InvertedSoftware.DataBlock.Core
             return objectList;
         }
 
+        /// <summary>
+        /// Gets a paged list of objects with their properties populated from a stored procedure asynchronously.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="generator"></param>
+        /// <param name="pageIndex"></param>
+        /// <param name="rowsPerPage"></param>
+        /// <param name="sprocName"></param>
+        /// <param name="stringConnection"></param>
+        /// <param name="commandParameters"></param>
+        /// <returns></returns>
+        /// <exception cref="DataBlockException"></exception>
         public static async Task<(List<T>, int virtualTotal)> GetPagedObjectListAsync<T>(Func<T> generator, int pageIndex, int rowsPerPage, string sprocName, string stringConnection, params SqlParameter[] commandParameters)
         {
             List<T> objectList = new List<T>();
@@ -758,7 +770,7 @@ namespace InvertedSoftware.DataBlock.Core
         /// <param name="objectToUpdate">The live object.</param>
         /// <param name="sprocName">The name of the stored procedure to use.</param>
         /// <param name="stringConnection">The string connection.</param>
-        public static async void UpdateObjectAsync<T>(T objectToUpdate, string sprocName, string stringConnection)
+        public static async Task UpdateObjectAsync<T>(T objectToUpdate, string sprocName, string stringConnection)
         {
             try
             {

@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Inverted Software")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Inverted Software")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute(@"Lightweight, low memory footprint and high performance library, The Inverted Software DataBlock helps creating objects and lists from stored procedures or queries output as well as updating records from models. Usage looks like: CRUDHelper.GetObjectList<Category>(() => new Category(), ""GetCategories"", mainConnectionString);
 Tutorial here: https://www.blogcloud.io/b/Gal-Ratner/p/the-inverted-software-datablock-quick-start-tutorial")]

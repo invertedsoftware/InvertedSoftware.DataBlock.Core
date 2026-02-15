@@ -14,12 +14,18 @@ Tutorial here: https://www.blogcloud.io/b/Gal-Ratner/p/the-inverted-software-dat
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <Title>Inverted Software Data Block.Core</Title>
-    <PackageReleaseNotes>Updated to .NET 8, Frozen Collections and object Pool</PackageReleaseNotes>
-    <PackageReadmeFile>README.MD</PackageReadmeFile>
+    <PackageReleaseNotes>Updated to .NET 10, Added GetPagedObjectListAsync</PackageReleaseNotes>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
-	  <None Include="README.md" Pack="true" PackagePath="\" />
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="README.md" Pack="true" PackagePath="\">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
   </ItemGroup>
 
   <ItemGroup>
@@ -28,6 +34,6 @@ Tutorial here: https://www.blogcloud.io/b/Gal-Ratner/p/the-inverted-software-dat
   </ItemGroup>
 
 	<PropertyGroup Condition=" '$(Version)' == '' ">
-		<VersionPrefix Condition=" '$(VersionPrefix)' == '' ">1.0.2</VersionPrefix>
+		<VersionPrefix Condition=" '$(VersionPrefix)' == '' ">1.0.5</VersionPrefix>
 	</PropertyGroup>
 </Project>

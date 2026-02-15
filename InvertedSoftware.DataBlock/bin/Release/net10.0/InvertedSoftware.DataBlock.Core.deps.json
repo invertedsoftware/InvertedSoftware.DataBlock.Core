@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "InvertedSoftware.DataBlock.Core/1.0.2": {
+      "InvertedSoftware.DataBlock.Core/1.0.5": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "6.1.4",
           "Microsoft.Extensions.ObjectPool": "10.0.3"
@@ -405,7 +405,7 @@
     }
   },
   "libraries": {
-    "InvertedSoftware.DataBlock.Core/1.0.2": {
+    "InvertedSoftware.DataBlock.Core/1.0.5": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

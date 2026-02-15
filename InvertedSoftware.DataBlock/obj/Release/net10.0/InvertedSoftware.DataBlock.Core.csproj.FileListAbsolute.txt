@@ -11,3 +11,4 @@ C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.Dat
 C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\obj\Release\net10.0\refint\InvertedSoftware.DataBlock.Core.dll
 C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\obj\Release\net10.0\InvertedSoftware.DataBlock.Core.pdb
 C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\obj\Release\net10.0\ref\InvertedSoftware.DataBlock.Core.dll
+C:\Users\galra\source\repos\InvertedSoftware.DataBlock.Core\InvertedSoftware.DataBlock\bin\Release\net10.0\README.md
