@@ -220,7 +220,7 @@ namespace InvertedSoftware.DataBlock.Core
             {
                 try
                 {
-                    SqlHelper.PrepareCommand(cmd, conn, CommandType.StoredProcedure, sprocName, null, paramArray);
+                    await SqlHelper.PrepareCommandAsync(cmd, conn, CommandType.StoredProcedure, sprocName, null, paramArray);
                     using (SqlDataReader rdr = await cmd.ExecuteReaderAsync(CommandBehavior.CloseConnection))
                     {
                         PropertyInfo[] props = ObjectHelper.GetDataObjectInfo<T>().Properties;

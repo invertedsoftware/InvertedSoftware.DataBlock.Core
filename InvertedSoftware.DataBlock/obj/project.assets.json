@@ -1363,7 +1363,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.5",
+    "version": "1.0.6",
     "restore": {
       "projectUniqueName": "C:\\Users\\galra\\source\\repos\\InvertedSoftware.DataBlock.Core\\InvertedSoftware.DataBlock\\InvertedSoftware.DataBlock.Core.csproj",
       "projectName": "InvertedSoftware.DataBlock.Core",
